@@ -15,6 +15,7 @@ if paginaselecionada == "Inicio":
 
 elif paginaselecionada == 'Carnes': 
   st.title('Receitas com Carne')
+  st.write("[Receita](https://paladar.estadao.com.br/noticias/receita,bife-wellington-como-fazer-o-classico-em-casa-a-prova-de-erro,70003582982)")
 
 elif paginaselecionada == 'Peixes': 
   st.title('Receitas com Peixe')
