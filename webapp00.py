@@ -10,7 +10,9 @@ st.title("PrePear")
 st.header("Cabeçalho")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("Sub Cabeçalho")
+st.subheader("Site de Receitas do Mackenzie Campinas ")
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
+
+st.sidebar.title("menu")
