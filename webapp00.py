@@ -16,4 +16,4 @@ if paginaselecionada == 'Carnes':
   st.selectbox('Receitas',['Carnes', 'Peixes'])
 elif paginaselecionada == 'Peixes': 
   st.title('com Peixe')
-  
+  st.selectbox('Receitas',['Carnes', 'Peixes'])
