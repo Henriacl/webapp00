@@ -9,19 +9,19 @@ st.title("PrePear")
 st.subheader("Site de Receitas do Mackenzie Campinas ")
 
 st.sidebar.title("Receitas")
-paginaselecionada = st.sidebar.selectbox('Receitas', ["Carnes", "Peixes", "Aves", "Vegetariano", "Vegano"])
+paginaselecionada = st.sidebar.selectbox('Receitas', ["Carnes", "Peixes", "Aves", "Vegetarianas", "Veganas"])
 
 if paginaselecionada == 'Carnes': 
   st.title('Receitas com Carne')
 
 elif paginaselecionada == 'Peixes': 
-  st.title('com Peixe')
+  st.title('Receitas com Peixe')
   
 elif paginaselecionada == 'Aves':
-  st.title('Receitas com Carne')
+  st.title('Receitas com Aves')
   
-elif paginaselecionada == 'Vegetariano':
-  st.title('Receitas com Carne')
+elif paginaselecionada == 'Vegetarianas':
+  st.title('Receitas Vegetarianas')
     
-elif paginaselecionada == 'Vegano':
-  st.title('Receitas com Carne')
+elif paginaselecionada == 'Veganas':
+  st.title('Receitas Veganas')
