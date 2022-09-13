@@ -1,7 +1,6 @@
 
 
 import streamlit as st
-import pandas as pd 
   
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("PrePear")
@@ -10,11 +9,11 @@ st.title("PrePear")
 st.subheader("Site de Receitas do Mackenzie Campinas ")
 
 st.sidebar.title("Receitas")
-paginaselecionada = st.sidebar.selectbox("Receitas", ["Carnes", "Peixes", "Aves", "Vegetariano", "Vegano"])
+paginaselecionada = st.sidebar.selectbox("Receitas", ['Carnes', 'Peixes'])
 
-if paginaselecionada == "Carnes": 
+if paginaselecionada == 'Carnes': 
   st.title("Receitas com Carne")
-  st.selectbox("Receitas", ["Carnes", "Peixes", "Aves", "Vegetariano", "Vegano"])
-elif paginaselecionada == "Peixes": 
+  st.selectbox("Receitas", ["Carnes", "Peixes"])
+elif paginaselecionada == 'Peixes': 
   st.title("Receitas com Peixe")
   
