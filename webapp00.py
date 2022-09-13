@@ -8,6 +8,7 @@ paginaselecionada = st.sidebar.selectbox('Receitas', ["Inicio", "Carnes", "Peixe
 if paginaselecionada == "Inicio":
   st.title("PrePear")
   st.subheader("Site de Receitas do Mackenzie Campinas ")
+  st.body("dhahdah")
 
 elif paginaselecionada == 'Carnes': 
   st.title('Receitas com Carne')
