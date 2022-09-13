@@ -54,14 +54,14 @@ elif paginaselecionada == 'Aves':
   st.write("receitas com aves diferentes\
   [Leia mais](https://www.tudogostoso.com.br/categorias/1009-aves)")
   
-  testeteste = st.selectbox("Tipos de Aves", ("Frango", "Pato", "Pinguin"))
+  testeteste = st.selectbox("Tipos de Aves", ("Frango", "Pato", "Peru"))
   if testeteste == "Frango":
     st.write("Receitas com Frango \
     [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/peito-de-frango-simples-e-facil)")
   elif testeteste == "Pato":
     st.write("Receitas com Pato \
     [Mais Receitas](https://www.receiteria.com.br/receitas-de-pato/)")
-  elif testeteste == "Pinguin":
+  elif testeteste == "Peru":
     st.write("Receitas com penguin \
     [Mais Receitas](https://www.tudoreceitas.com/receitas-de-peru-1101/)")
   
