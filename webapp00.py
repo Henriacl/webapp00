@@ -13,7 +13,7 @@ paginaselecionada = st.sidebar.selectbox('Receitas', ['Carnes', 'Peixes'])
 
 if paginaselecionada == 'Carnes': 
   st.title('Receitas com Carne')
-  st.selectbox('Receitas',['Carnes', 'Peixes'])
+  
 elif paginaselecionada == 'Peixes': 
   st.title('com Peixe')
-  st.selectbox('Receitas',['Carnes', 'Peixes'])
+  
