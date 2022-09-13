@@ -26,7 +26,7 @@ elif paginaselecionada == 'Carnes':
     st.write("Receitas com Carne Seca \
     [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-seca/)")
   elif testeteste == "Carne de Porco":
-    st.write("Receitas com Carne de Porco \ 
+    st.write("Receitas com Carne de Porco \
     [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-de-porco/)")
     
   
