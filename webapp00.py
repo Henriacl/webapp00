@@ -10,5 +10,8 @@ st.title("PrePear")
 st.subheader("Site de Receitas do Mackenzie Campinas ")
 
 
+st.sidebar.selectbox("Receitas", ["Carnes", "Peixes", "Aves", "Vegetariano", "Vegano"])
 st.sidebar.selectbox("Trends", ["Tiktok", "Instagram", "FaceBook"])
-st.sidebar.title("Receitas")
+
+if paginaselecionada == "Carnes":
+  st.title("Receitas com Carne")
