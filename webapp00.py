@@ -16,6 +16,13 @@ st.sidebar.selectbox("Trends", ["Tiktok", "Instagram", "FaceBook"])
 if selectedoption == "Carnes":
   st.title("Receitas com Carne")
   st.selectbox("opçao", ["opr1", "opt2"])
-elif selectedoption == "Peixes"
+  
+if selectedoption == "Peixes"
   st.title("Receitas com Peixes")
   st.selectbox("opçao", ["opr1", "opt2"])
+
+if selectedoption == "Aves":
+  st.title("Receitas com Carne")
+  st.selectbox("opçao", ["opr1", "opt2"])
+  
+elif return0 
