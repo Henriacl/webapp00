@@ -36,12 +36,65 @@ elif paginaselecionada == 'Peixes':
   st.write("aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
   Excepteur sint\
   [Leia mais](https://www.sabornamesa.com.br/receitas-de-peixes/file-de-peixe-simples-e-facil)")
+  
+  testeteste = st.selectbox("Tipos de Carne", ("Carne Moida", "Carne Seca", "Carne de Porco"))
+  if testeteste == "Carne Moida":
+    st.write("Receitas com Carne Moida, podem ter diferentes usos sendo muito versatil no seu preparo \
+    [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida)")
+  elif testeteste == "Carne Seca":
+    st.write("Receitas com Carne Seca \
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-seca/)")
+  elif testeteste == "Carne de Porco":
+    st.write("Receitas com Carne de Porco \
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-de-porco/)")
 
 elif paginaselecionada == 'Aves':
   st.title('Receitas com Aves')
+  st.write("aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
+  Excepteur sint\
+  [Leia mais](https://www.sabornamesa.com.br/receitas-de-peixes/file-de-peixe-simples-e-facil)")
+  
+  testeteste = st.selectbox("Tipos de Carne", ("Carne Moida", "Carne Seca", "Carne de Porco"))
+  if testeteste == "Carne Moida":
+    st.write("Receitas com Carne Moida, podem ter diferentes usos sendo muito versatil no seu preparo \
+    [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida)")
+  elif testeteste == "Carne Seca":
+    st.write("Receitas com Carne Seca \
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-seca/)")
+  elif testeteste == "Carne de Porco":
+    st.write("Receitas com Carne de Porco \
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-de-porco/)")
   
 elif paginaselecionada == 'Vegetarianas':
   st.title('Receitas Vegetarianas')
+  st.write("aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
+  Excepteur sint\
+  [Leia mais](https://www.sabornamesa.com.br/receitas-de-peixes/file-de-peixe-simples-e-facil)")
+  
+  testeteste = st.selectbox("Tipos de Carne", ("Carne Moida", "Carne Seca", "Carne de Porco"))
+  if testeteste == "Carne Moida":
+    st.write("Receitas com Carne Moida, podem ter diferentes usos sendo muito versatil no seu preparo \
+    [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida)")
+  elif testeteste == "Carne Seca":
+    st.write("Receitas com Carne Seca \
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-seca/)")
+  elif testeteste == "Carne de Porco":
+    st.write("Receitas com Carne de Porco \
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-de-porco/)")
     
 elif paginaselecionada == 'Veganas':
   st.title('Receitas Veganas')
+  st.write("aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
+  Excepteur sint\
+  [Leia mais](https://www.sabornamesa.com.br/receitas-de-peixes/file-de-peixe-simples-e-facil)")
+  
+  testeteste = st.selectbox("Tipos de Carne", ("Carne Moida", "Carne Seca", "Carne de Porco"))
+  if testeteste == "Carne Moida":
+    st.write("Receitas com Carne Moida, podem ter diferentes usos sendo muito versatil no seu preparo \
+    [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida)")
+  elif testeteste == "Carne Seca":
+    st.write("Receitas com Carne Seca \
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-seca/)")
+  elif testeteste == "Carne de Porco":
+    st.write("Receitas com Carne de Porco \
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-de-porco/)")
