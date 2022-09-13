@@ -76,4 +76,6 @@ elif paginaselecionada == 'Veganas':
   st.write("receitas diversas veganas\
   [Leia mais](https://www.receiteria.com.br/receitas-veganas/)")
   
-st.image("https://supermercadosrondon.com.br/guiadecarnes/dicas-e-receitas/?idpost=5&titulo=as-7-melhores-carnes-para-churrasco")
+
+image = Image.open("imagens/download.jfif")
+st.image(image)
