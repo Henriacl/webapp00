@@ -17,6 +17,4 @@ st.write("Como já deve ter percebido, o método st.write() é usado para escrit
 
 st.sidebar.title("Menu")
 st.sidebar.selectbox("receitas")
-st.sidebar.selectbox("Trends no TikTok")
-st.sidebar.selectbox("Trends no Instagram")
-st.sidebar.selectbox("Trends no FaceBook")
+st.sidebar.selectbox("Trends", ["Tiktok", "Instagram", "FaceBook"])
