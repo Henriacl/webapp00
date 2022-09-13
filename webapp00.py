@@ -76,4 +76,4 @@ elif paginaselecionada == 'Veganas':
   st.write("receitas diversas veganas\
   [Leia mais](https://www.receiteria.com.br/receitas-veganas/)")
   
-st.image("https://www.saboravida.com.br/gastronomia/2021/09/17/hamburgueria-conheca-as-20-melhores-de-sp/")
+st.image("https://supermercadosrondon.com.br/guiadecarnes/dicas-e-receitas/?idpost=5&titulo=as-7-melhores-carnes-para-churrasco")
