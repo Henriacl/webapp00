@@ -18,14 +18,16 @@ elif paginaselecionada == 'Carnes':
   st.write("ALgumas ideia de receitas com Carne que talvez voce possa gostar\
   [Receitas Com Carne](https://www.tudogostoso.com.br/categorias/1004-carnes)")
   
-  testeteste = st.selectbox("Tipos de Carne", ("Carne Moida", "carne2", "carne3"))
+  testeteste = st.selectbox("Tipos de Carne", ("Carne Moida", "Carne Seca", "Carne de Porco"))
   if testeteste == "Carne Moida":
     st.write("Receitas com Carne Moida, podem ter diferentes usos sendo muito versatil no seu preparo \
     [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida)")
-  elif testeteste == "carne2":
-    st.write("receita2")
-  elif testeteste == "carne3":
-    st.write("receita3")
+  elif testeteste == "Carne Seca":
+    st.write("Receitas com Carne Seca \ 
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-seca/)")
+  elif testeteste == "Carne de Porco":
+    st.write("Receitas com Carne de Porco \ 
+    [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-de-porco/)")
     
   
  
