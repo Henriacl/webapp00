@@ -1,6 +1,7 @@
 
 
 import streamlit as st
+from PIL import Image
 
 st.sidebar.title("Receitas")
 paginaselecionada = st.sidebar.selectbox('Receitas', ["Inicio", "Carnes", "Peixes", "Aves", "Vegetarianas", "Veganas"])
@@ -76,7 +77,7 @@ elif paginaselecionada == 'Veganas':
   [Leia mais](https://www.receiteria.com.br/receitas-veganas/)")
   
   
-  from PIL import Image
+  
 image = Image.open('sunrise.jpg')
 
 st.image(image, caption='Sunrise by the mountains')
