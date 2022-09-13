@@ -15,11 +15,13 @@ if paginaselecionada == "Inicio":
 
 elif paginaselecionada == 'Carnes': 
   st.title('Receitas com Carne')
-  st.write("[Receita](https://paladar.estadao.com.br/noticias/receita,bife-wellington-como-fazer-o-classico-em-casa-a-prova-de-erro,70003582982)")
+  st.write("[Receitas Com Carne](https://paladar.estadao.com.br/noticias/receita,bife-wellington-como-fazer-o-classico-em-casa-a-prova-de-erro,70003582982)")
 
 elif paginaselecionada == 'Peixes': 
   st.title('Receitas com Peixe')
-  
+  st.write("aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
+  Excepteur sint\
+  [Leia mais](https://www.sabornamesa.com.br/receitas-de-peixes/file-de-peixe-simples-e-facil)")
 elif paginaselecionada == 'Aves':
   st.title('Receitas com Aves')
   
