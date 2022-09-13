@@ -41,7 +41,7 @@ elif paginaselecionada == 'Peixes':
   if testeteste == "Salmao":
     st.write("Receitas com Salmao \
     [Mais Receitas](https://www.receiteria.com.br/receitas-com-salmao/)")
-  elif testeteste == " Atum":
+  elif testeteste == "Atum":
     st.write("Receitas com Atum \
     [Mais Receitas](https://www.receiteria.com.br/receitas-com-atum-em-lata/)")
   elif testeteste == "Tilapia":
