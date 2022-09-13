@@ -23,7 +23,7 @@ elif paginaselecionada == 'Carnes':
     st.write("Receitas com Carne Moida, podem ter diferentes usos sendo muito versatil no seu preparo \
     [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida)")
   elif testeteste == "Carne Seca":
-    st.write("Receitas com Carne Seca \ 
+    st.write("Receitas com Carne Seca \
     [Mais Receitas](https://www.receiteria.com.br/receitas-com-carne-seca/)")
   elif testeteste == "Carne de Porco":
     st.write("Receitas com Carne de Porco \ 
