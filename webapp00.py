@@ -43,7 +43,7 @@ elif paginaselecionada == 'Peixes':
   st.write("aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
   Excepteur sint\
   [Leia mais](https://www.sabornamesa.com.br/receitas-de-peixes/file-de-peixe-simples-e-facil)")
-   testeteste = st.selectbox("Tipos de Peixe", ["Salmao", "Atum", "Tilapia"])
+  testeteste = st.selectbox("Tipos de Peixe", ("Salmao", "Atum", "Tilapia"))
     
                      
   if testeteste == "Salmao":
