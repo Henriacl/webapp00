@@ -13,9 +13,9 @@ st.subheader("Site de Receitas do Mackenzie Campinas ")
 st.sidebar.selectbox("Receitas", ["Carnes", "Peixes", "Aves", "Vegetariano", "Vegano"])
 st.sidebar.selectbox("Trends", ["Tiktok", "Instagram", "FaceBook"])
 
-if st.sidebar.selectbox("Receitas") == "Carnes":
+if selectedoption == "Carnes":
   st.title("Receitas com Carne")
   st.selectbox("opçao", ["opr1", "opt2"])
-elif st.sidebar.selectbox("Receitas") == "Peixes":
+elif selectedoption == "Peixes"
   st.title("Receitas com Peixes")
   st.selectbox("opçao", ["opr1", "opt2"])
