@@ -16,7 +16,7 @@ if paginaselecionada == "Inicio":
 elif paginaselecionada == 'Carnes': 
   st.title('Receitas com Carne')
   st.write("[Receitas Com Carne](https://paladar.estadao.com.br/noticias/receita,bife-wellington-como-fazer-o-classico-em-casa-a-prova-de-erro,70003582982)")
-
+  st.selectbox("opcao")
 elif paginaselecionada == 'Peixes': 
   st.title('Receitas com Peixe')
   st.write("aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
