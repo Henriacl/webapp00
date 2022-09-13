@@ -21,4 +21,3 @@ if selectedoption == "Peixes":
   st.title("Receitas com Peixes")
   st.selectbox("opçao", ["opr1", "opt2"])
   
-elif return0 
