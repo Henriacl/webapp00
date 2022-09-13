@@ -76,3 +76,4 @@ elif paginaselecionada == 'Veganas':
   st.write("receitas diversas veganas\
   [Leia mais](https://www.receiteria.com.br/receitas-veganas/)")
   
+image = Image.open('C:\Users\henri\Desktop\webapp00-main')
