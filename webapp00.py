@@ -14,18 +14,20 @@ if paginaselecionada == "Inicio":
   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
 
 elif paginaselecionada == 'Carnes':
-  testeteste = st.selectbox("qual receita", ("carne1", "carne2", "carne3"))
-  if testeteste == "carne1":
-    st.write("receita1")
+  st.title('Receitas com Carne')
+  st.write("ALgumas ideia de receitas com Carne que talvez voce possa gostar\
+  [Receitas Com Carne](https://www.tudogostoso.com.br/categorias/1004-carnes)")
+  
+  testeteste = st.selectbox("Tipos de Carne", ("Carne Moida", "carne2", "carne3"))
+  if testeteste == "Carne Moida":
+    st.write("Receitas com Carne Moida, podem ter diferentes usos sendo muito versatil no seu preparo \
+    [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida"))
   elif testeteste == "carne2":
     st.write("receita2")
   elif testeteste == "carne3":
     st.write("receita3")
     
-  st.title('Receitas com Carne')
-  st.write("aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
-  Excepteur sint\
-  [Receitas Com Carne](https://paladar.estadao.com.br/noticias/receita,bife-wellington-como-fazer-o-classico-em-casa-a-prova-de-erro,70003582982)")
+  
  
 elif paginaselecionada == 'Peixes': 
   st.title('Receitas com Peixe')
