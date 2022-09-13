@@ -15,4 +15,8 @@ st.subheader("Site de Receitas do Mackenzie Campinas ")
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
 
-st.sidebar.title(Menu)
+st.sidebar.title("Menu")
+st.sidebar.selectbox("receitas")
+st.sidebar.selectbox("Trends no TikTok")
+st.sidebar.selectbox("Trends no Instagram")
+st.sidebar.selectbox("Trends no FaceBook")
