@@ -8,10 +8,14 @@ st.title("PrePear")
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
 st.subheader("Site de Receitas do Mackenzie Campinas ")
 
-st.sidebar.title("Receitas")
-paginaselecionada = st.sidebar.selectbox('Receitas', ["Carnes", "Peixes", "Aves", "Vegetarianas", "Veganas"])
 
-if paginaselecionada == 'Carnes': 
+
+st.sidebar.title("Receitas")
+paginaselecionada = st.sidebar.selectbox('Receitas', ["Inicio", "Carnes", "Peixes", "Aves", "Vegetarianas", "Veganas"])
+
+if paginaselecionada == "Inicio":
+
+elif paginaselecionada == 'Carnes': 
   st.title('Receitas com Carne')
 
 elif paginaselecionada == 'Peixes': 
