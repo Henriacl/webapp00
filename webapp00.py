@@ -17,7 +17,7 @@ if selectedoption == "Carnes":
   st.title("Receitas com Carne")
   st.selectbox("opçao", ["opr1", "opt2"])
   
-if selectedoption == "Peixes"
+if selectedoption == "Peixes":
   st.title("Receitas com Peixes")
   st.selectbox("opçao", ["opr1", "opt2"])
   
