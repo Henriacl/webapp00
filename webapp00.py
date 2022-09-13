@@ -74,3 +74,9 @@ elif paginaselecionada == 'Veganas':
   st.title('Receitas Veganas')
   st.write("receitas diversas veganas\
   [Leia mais](https://www.receiteria.com.br/receitas-veganas/)")
+  
+  
+  from PIL import Image
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
