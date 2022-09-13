@@ -19,7 +19,7 @@ elif paginaselecionada == 'Carnes':
     st.write("receita1")
   elif testeteste == "carne2":
     st.write("receita2")
-  elif testeteste == "carne3:
+  elif testeteste == "carne3":
     st.write("receita3")
     
   st.title('Receitas com Carne')
