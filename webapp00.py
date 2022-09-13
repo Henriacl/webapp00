@@ -21,7 +21,7 @@ elif paginaselecionada == 'Carnes':
   testeteste = st.selectbox("Tipos de Carne", ("Carne Moida", "carne2", "carne3"))
   if testeteste == "Carne Moida":
     st.write("Receitas com Carne Moida, podem ter diferentes usos sendo muito versatil no seu preparo \
-    [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida"))
+    [Mais Receitas](https://www.sabornamesa.com.br/receita-de-carnes/receitas-com-carne-moida)")
   elif testeteste == "carne2":
     st.write("receita2")
   elif testeteste == "carne3":
