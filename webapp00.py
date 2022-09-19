@@ -24,7 +24,7 @@ elif paginaselecionada == 'Carnes':
     st.image(image)
   elif testeteste == "Carne Seca":
     image = Image.open("imagensnovo/carne seca.jfif")
-    st.write("Receita com Carne Seca \ 
+    st.write("Receita com Carne Seca \
     caldo de mandioca com carne seca n\
     n\
     300g de carne seca \ ")
