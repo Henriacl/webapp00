@@ -98,7 +98,8 @@ elif paginaselecionada == 'Veganas':
   [Leia mais](https://www.receiteria.com.br/receitas-veganas/)")
   st.image(image)
   
-elif paginaseleciona == "teste":
+elif paginaselecionada == "teste":
+  st.title("testando")
   
   
   
