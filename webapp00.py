@@ -100,7 +100,7 @@ elif paginaselecionada == 'Veganas':
   
 elif paginaselecionada == "teste":
   st.title("testando")
-  
+  input("valor em gramas")
   
   
   
