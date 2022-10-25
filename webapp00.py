@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 st.sidebar.title("Receitas")
-paginaselecionada = st.sidebar.selectbox('Receitas', ["Inicio", "Carnes", "Peixes", "Aves", "Vegetarianas", "Veganas"])
+paginaselecionada = st.sidebar.selectbox('Receitas', ["Inicio", "Carnes", "Peixes", "Aves", "Vegetarianas", "Veganas", "teste"])
 
 if paginaselecionada == "Inicio":
   st.title("PrePear")
@@ -97,6 +97,11 @@ elif paginaselecionada == 'Veganas':
   st.write("receitas diversas veganas\
   [Leia mais](https://www.receiteria.com.br/receitas-veganas/)")
   st.image(image)
+  
+elif paginaseleciona == "teste":
+  
+  
+  
   
 
 
