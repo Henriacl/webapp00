@@ -19,8 +19,7 @@ elif(conversao == "Gramas")
               xicaras = int(gramas)/250
               resto = int(gramas) % 250
               fracao = Fraction(resto , 250)
-              print("As gramas representam ", int(xicaras),"xicaras e ", fracao.limit_denominator(5))
-              st.text("O Valor em Gramas representa {}.".format(xicaras)
+              st.text("O Valor em Gramas representa {}.".format(xicaras)."xicaras e {}.".format(fracao.limit_denominator(5))
   
 
               
