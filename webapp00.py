@@ -21,5 +21,5 @@ elif(conversao == "Gramas"):
   st.text("O Valor em Gramas representa {}.".format(xicaras))
   st.text("Xicaras e {}.".format(fracao.limit_denominator(5))
           
-elif(conversao == "Gramas"):
-          
+else:
+  st.text("Sei la!")
