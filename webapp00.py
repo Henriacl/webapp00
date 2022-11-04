@@ -20,5 +20,6 @@ elif(conversao == "Gramas"):
   fracao = Fraction(resto , 250)
   st.text("O Valor em Gramas representa {}.".format(xicaras))
   st.text("Xicaras e {}.".format(fracao.limit_denominator(5))
-          elif(conversao == "Xicaras"):
-  st.text("aohdoahdoah")
+          
+elif(conversao == "Gramas"):
+          
