@@ -24,6 +24,5 @@ if(conversao == "Inicio"):
               
 
 elif(conversao == "Xicaras"):
-
-
+  st.text("oioi")
      
