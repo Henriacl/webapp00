@@ -16,4 +16,4 @@ if(conversao == "Xicaras"):
   xicaras = 0 
   xicaras = st.number_input("quantidade de xicaras: ")
   valor = int(xicaras)*250
-  st.text("A qtd de xicaras representa {} Gramas.format(valor))
+  st.text("A qtd de xicaras representa {} Gramas".format(valor))
