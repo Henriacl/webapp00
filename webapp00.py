@@ -2,18 +2,30 @@
 
 import streamlit as st
 from PIL import Image
+from fractions import Fraction
+
 
 conversao = st.selectbox("Qual unidade quer converter: ",
                         ["Inicio", "Gramas", "Xicaras"])
 
   
-if( conversao == "Inicio")
+if(conversao == "Inicio")
     
     st.header("Site de conversao de PrePear)
 
-elif (conversao == "Gramas")
+elif(conversao == "Gramas")
+              gramas = 0
+              gramas = st.number_input("Valor em Gramas")
+              xicaras = int(gramas)/250
+              resto = int(gramas) % 250
+              fracao = Fraction(resto , 250)
+              print("As gramas representam ", int(xicaras),"xicaras e ", fracao.limit_denominator(5))
+              st.text("O Valor em Gramas representa {}.".format(xicaras)
+  
 
-elif (conversao == "Xicaras")
+              
+
+elif(conversao == "Xicaras")
 
 
      
