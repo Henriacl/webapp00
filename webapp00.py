@@ -10,7 +10,7 @@ if(conversao == "Gramas"):
   gramas = 0
   gramas = st.number_input("Valor em Gramas")
   xicaras = int(gramas)/250
-  st.text("O Valor em Gramas representa {}.xicaras".format(xicaras))
+  st.text("O Valor em Gramas representa {} xicaras".format(xicaras))
   
 if(conversao == "Xicaras"):
   xicaras = 0 
