@@ -1,7 +1,4 @@
-
-
 import streamlit as st
-from PIL import Image
 #from fractions import Fraction
 
 st.text("OI!")
