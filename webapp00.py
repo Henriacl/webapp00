@@ -9,10 +9,10 @@ conversao = st.selectbox("Qual unidade quer converter: ",
                         ["Inicio", "Gramas", "Xicaras"])
 
   
-if(conversao == "Inicio")
+if(conversao == "Inicio"):
     st.header("Site de conversao de PrePear)
 
-elif(conversao == "Gramas")
+elif(conversao == "Gramas"):
               gramas = 0
               gramas = st.number_input("Valor em Gramas")
               xicaras = int(gramas)/250
@@ -23,7 +23,7 @@ elif(conversao == "Gramas")
 
               
 
-elif(conversao == "Xicaras")
+elif(conversao == "Xicaras"):
 
 
      
