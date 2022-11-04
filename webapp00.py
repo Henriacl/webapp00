@@ -4,6 +4,7 @@ import streamlit as st
 from PIL import Image
 from fractions import Fraction
 
+!pip install fractions
 
 conversao = st.selectbox("Qual unidade quer converter: ",
                         ["Inicio", "Gramas", "Xicaras"])
