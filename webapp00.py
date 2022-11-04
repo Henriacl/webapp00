@@ -2,7 +2,7 @@
 
 import streamlit as st
 from PIL import Image
-from fractions import Fraction
+#from fractions import Fraction
 
 st.text("OI!")
 #conversao = st.selectbox("Qual unidade quer converter: ",["Inicio", "Gramas", "Xicaras"])
