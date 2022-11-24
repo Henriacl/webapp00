@@ -8,13 +8,13 @@ if(conversao == "Inicio"):
   
 if(conversao == "Gramas"):
   gramas = 0 
-  Colheres de Sopa = 0
+  ColheresdeSopa = 0
   gramas = st.number_input("Valor em Gramas")
   xicaras = int(gramas)/250
-  Colheres de Sopa = int(gramas)/20
+  ColheresdeSopa = int(gramas)/20
   st.text("O Valor em Gramas representa {} xicaras".format(xicaras))
   st.text("Ou")
-  st.text("Representa {} Colheres de Sopa".format(Colheres de Sopa))
+  st.text("Representa {} Colheres de Sopa".format(ColheresdeSopa))
   
 if(conversao == "Xicaras"):
   xicaras = 0 
