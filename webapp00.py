@@ -24,7 +24,7 @@ if(conversao == "Xicaras"):
   
   
 if(conversao == "Colheres de Sopa"):
-  Colheres de Sopa = 0 
-  xicaras = st.number_input("Qantidade de Colheres: ")
-  valor = Colheres de Sopa*20
+  ColheresdeSopa = 0 
+  ColheresdeSopa = st.number_input("Qantidade de Colheres de Sopa: ")
+  valor = ColheresdeSopa*20
   st.text("A qtd de Colheres de Sopa representa {} Gramas".format(valor))
